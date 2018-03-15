@@ -1,0 +1,26 @@
+VCS - VERSION CONTROL SYSTEM
+     CENTRALIZED(SVN -SUB VERSION)
+	[
+	 DISTRIBUTED(GIT, MERCURIAL)
+	 
+
+*create a new sample file
+git init
+git status
+git add sample.txt
+git commit -m "initial commit"
+git remote add origin https://github.com/sample/sample.git
+git push origin master
+
+*when you edit something
+git status
+git add sample.txt
+git commit -m "added a word"
+git push origin master
+
+git log
+git reset --hard (commit id)
+
+master - branch
+gitclone
+mergebranch
